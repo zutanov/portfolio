@@ -1,0 +1,44 @@
+.pricelist {
+    padding-top: 120px;
+    .container {
+        padding: 0 50px;
+    }
+    .divider {
+        position: relative;
+        @include border;
+        &:before {
+            bottom: -25px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    &__grid {
+        margin-top: 85px;
+        grid-template: repeat(3, minmax(44px, auto)) / repeat(2, minmax(366px, auto));
+        row-gap: 15px;
+        justify-content: space-between;
+    }
+    &__item {
+        padding-left: 25px;
+        &-wrapper {
+            display: grid;
+            grid-template: 21px / repeat(2,auto);
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        &-title {
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                left: -25px;
+                top: 4px;
+                height: 15px;
+                width: 15px;
+                border-radius: 100%;
+                background: $main-color;
+            }
+        }
+    }
+}

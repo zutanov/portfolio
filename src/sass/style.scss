@@ -1,0 +1,38 @@
+@import 'libs/_bootstrap-reboot.min';
+
+@import 'base/_variables';
+@import 'base/_mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ a {
+   color:black;
+   }
+ 
+ .container {
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+ .grid {
+   display: grid;
+ }
+
+@import 'blocks/_promo';
+@import 'blocks/_title';
+@import 'blocks/_button';
+@import 'blocks/_sidepanel';
+@import 'blocks/_menu';
+@import 'blocks/_about';
+@import 'blocks/_resume';
+@import 'blocks/_skill';
+@import 'blocks/_portfolio';
+@import 'blocks/_pricelist';
+@import 'blocks/_contacts';
+@import 'blocks/_media';
+
+
+

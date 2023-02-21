@@ -1,0 +1,34 @@
+.promo {
+  min-height: 100vh;
+  background: url("../img/bg/main_bg.jpg") 50%/cover no-repeat;
+  padding-top: 205px;
+}
+
+.promo__title {
+  width: 535px;
+  margin-top: 10px;
+}
+
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+  z-index: 2;
+}
+
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promo__link {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.promo__link:hover {
+  color: #000;
+  text-decoration: none;
+}
